@@ -8,7 +8,7 @@ export default function Home() {
       <div
         className="flex items-center w-full h-full bg-cover bg-no-repeat"
         // style={{ backgroundImage: "url(main-bg.webp)" }}
-        // style={{ backgroundImage: "url(/bg-2.jpg)" }}
+        //style={{ backgroundImage: "url(/bg-2.jpg)" }}
         style={{ backgroundImage: "url(/mountains.jpg)" }}
         // style={{ backgroundImage: "url(bg-3.jpg)" }}
         // style={{ backgroundImage: "url(atombg-comp.webp" }}
