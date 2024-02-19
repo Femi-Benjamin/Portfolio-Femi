@@ -7,10 +7,10 @@ export default function Home() {
     <main className="w-screen h-screen relative bg-no-repeat">
       <div
         className="flex items-center w-full h-full bg-cover bg-no-repeat"
-        style={{ backgroundImage: "url(main-bg.webp)" }}
+        //style={{ backgroundImage: "url(main-bg.webp)" }}
         //style={{ backgroundImage: "url(/bg-2.jpg)" }}
         //style={{ backgroundImage: "url(/mountains.jpg)" }}
-        // style={{ backgroundImage: "url(bg-3.jpg)" }}
+         style={{ backgroundImage: "url(bg-3.jpg)" }}
         // style={{ backgroundImage: "url(atombg-comp.webp" }}
       >
         <div className="pl-10 md:pl-10 xl:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
