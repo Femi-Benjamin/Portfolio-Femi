@@ -7,9 +7,9 @@ export default function Home() {
     <main className="w-screen h-screen relative bg-no-repeat">
       <div
         className="flex items-center w-full h-full bg-cover bg-no-repeat"
-        //style={{ backgroundImage: "url(main-bg.webp)" }}
+        style={{ backgroundImage: "url(main-bg.webp)" }}
         //style={{ backgroundImage: "url(/bg-2.jpg)" }}
-        style={{ backgroundImage: "url(/mountains.jpg)" }}
+        //style={{ backgroundImage: "url(/mountains.jpg)" }}
         //style={{ backgroundImage: "url(bg-3.jpg)" }}
         // style={{ backgroundImage: "url(atombg-comp.webp" }}
       >
@@ -21,10 +21,10 @@ export default function Home() {
             </span>
           </h1>
           <p className="text-gray-200 hidden md:block">
-            I specialize in crafting beautiful and functional websites using modern technologies like React, Next.js, Tailwind
-            CSS and various frameworks. I am skilled at front-end web
-            development, ensuring exceptional user experience and robust
-            performance.
+            I specialize in crafting beautiful and functional websites using
+            modern technologies like React, Next.js, Tailwind CSS and various
+            frameworks. I am skilled at front-end web development, ensuring
+            exceptional user experience and robust performance.
           </p>
 
           <div className="flex-col md:flex-row hidden md:flex gap-5">
@@ -38,7 +38,7 @@ export default function Home() {
               href="/my-projects"
               className="rounded-[20px] group relative bg-trasparent px-5 border border-white py-3 text-lg text-white max-w-[200px]"
             >
-              <div className="absolute rounded-[20px] z-[1]  inset-0 opacity-0 group-hver:opacity-20" />
+              <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hver:opacity-20" />
               Discover my creative solutions
             </Link>
             <Link
