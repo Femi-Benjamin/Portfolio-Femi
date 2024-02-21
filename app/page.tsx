@@ -9,45 +9,44 @@ export default function Home() {
         className="flex items-center w-full h-full bg-cover bg-no-repeat"
         //style={{ backgroundImage: "url(main-bg.webp)" }}
         //style={{ backgroundImage: "url(/bg-2.jpg)" }}
-        //style={{ backgroundImage: "url(/mountains.jpg)" }}
-        style={{ backgroundImage: "url(bg-3.jpg)" }}
+        style={{ backgroundImage: "url(/mountains.jpg)" }}
+        //style={{ backgroundImage: "url(bg-3.jpg)" }}
         // style={{ backgroundImage: "url(atombg-comp.webp" }}
       >
         <div className="pl-10 md:pl-10 xl:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
-          <h1 className="text-[50px] text-white font-semibold">
-            Make anything possible with{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500">
-              Web Development
+          <h1 className="text-[50px] text-neutral-300 font-semibold capitalize">
+            Design and build{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-b from-blue-400 to-purple-400 animate-pulse">
+              beautiful and responsive websites
             </span>
           </h1>
           <p className="text-gray-200 hidden md:block">
-            I specialize in crafting beautiful and functional websites and
-            applications using modern technologies like React, Next.js, and
-            various frameworks. I am skilled in UX/UI design, and front-end web
+            I specialize in crafting beautiful and functional websites using modern technologies like React, Next.js, Tailwind
+            CSS and various frameworks. I am skilled at front-end web
             development, ensuring exceptional user experience and robust
             performance.
           </p>
 
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link
-              href="/my-skills"
+              href="https://portfolio-benjamin-sigma.vercel.app/"
               className="rounded-[20px] group relative bg-gradient-to-r from-cyan-700 to-purple-500 px-5 py-3 text-lg text-white max-w-[200px]"
             >
-              Learn more
+              View my portfolio
             </Link>
             <Link
               href="/my-projects"
               className="rounded-[20px] group relative bg-trasparent px-5 border border-white py-3 text-lg text-white max-w-[200px]"
             >
-              <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hver:opacity-20" />
-              My projects
+              <div className="absolute rounded-[20px] z-[1]  inset-0 opacity-0 group-hver:opacity-20" />
+              Discover my creative solutions
             </Link>
             <Link
               href="/contact-me"
               className="rounded-[20px] group relative bg-trasparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
             >
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hver:opacity-20" />
-              Contact me
+              Schedule a consultation
             </Link>
           </div>
         </div>

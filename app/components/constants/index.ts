@@ -79,7 +79,7 @@ export const SkillData = [
 export const Socials = [
   {
     name: "Discord",
-    src: "/instagram.svg",
+    src: " /discord.svg",
   },
   {
     name: "Facebook",
@@ -87,29 +87,30 @@ export const Socials = [
   },
   {
     name: "Instagram",
-    src: "/discord.svg",
+    src: "/instagram.svg",
   },
 ];
 export const Projects = [
   {
-    title: "Modern Nextjs Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/NextWebsite.png",
+    title: "HealthCare Management System For University Students",
+    text: "A cutting-edge Healthcare Management System tailored for university students, spearheading a transformative shift from a conventional file-based system to a dynamic web-based application.",
+    src: "/Healthcare.png",
+    link:"https://github.com/Femi-Benjamin/e-learn_project1"
   },
   {
-    title: "Space Themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/SpaceWebsite.png",
+    title: "E-Learn University Management System",
+    text: "Integrated third-party learning resources for a more comprehensive learning experience.",
+    src: "/elearn.png",
   },
   {
-    title: "Modern Nextjs Portfolio",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/WebPortfolio.png",
+    title: "Cardify Website",
+    text: "A robust and secure verification system that ensures that your gift cards are valid, genuine, and ready to use.",
+    src: "/cardify.png",
   },
   {
-    title: "Matrix themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/Matrix.png",
+    title: "Anime Finance Web Application",
+    text: "Unlock the future of digital wealth and crypto Mining Journey.",
+    src: "/animefinance.png",
   },
 ];
 
