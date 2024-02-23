@@ -68,7 +68,7 @@ export default function Home() {
         </Link>
 
         <Link
-          href="/contacts-me"
+          href="/contact-me"
           className="rounded-[20px] grou bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
         >
           Contact Me

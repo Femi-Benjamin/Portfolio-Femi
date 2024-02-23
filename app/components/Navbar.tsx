@@ -62,8 +62,8 @@ const Navbar = () => {
 
   return (
     <div className="fixed top-0 z-[40] w-full items-center ">
-      <div className="mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-[100px]">
+      <div className="mx-auto px-4 sm:px-6 lg:px-8 ">
+        <div className="flex justify-between items-center xl:h-[100px] h-20">
           <Link href={"/"}>
             <div className="flex gap-3 items-center flexrow">
               <div className="md:block hidden">
@@ -129,22 +129,24 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden">
-          <div className="px-3 pt2 space-y-1 sm:px-6">
-            <div className="border-b border-b-gray-700 pb-4 flex justify-center">
-              <Navigation />
-            </div>
-            <div className="pt-4 pb3">
-              <div className="flex gap-10 justify-center px5">
-                {Socials.map((social) => (
-                  <Image
-                    key={social.name}
-                    src={social.src}
-                    alt={social.name}
-                    width={28}
-                    height={28}
-                  />
-                ))}
+        <div className="">
+          <div className="md:hidden">
+            <div className="mx-3 p-3 space-y-1 sm:mx-6 rounded-2xl bg-slate800 backdrop-blur-xl">
+              <div className="border-b border-b-gray-700 pb-4 flex justify-center">
+                <Navigation />
+              </div>
+              <div className="pt-4 pb3">
+                <div className="flex gap-10 justify-center px5">
+                  {Socials.map((social) => (
+                    <Image
+                      key={social.name}
+                      src={social.src}
+                      alt={social.name}
+                      width={28}
+                      height={28}
+                    />
+                  ))}
+                </div>
               </div>
             </div>
           </div>
