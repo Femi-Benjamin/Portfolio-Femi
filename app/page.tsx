@@ -13,8 +13,8 @@ export default function Home() {
         //style={{ backgroundImage: "url(bg-3.jpg)" }}
         // style={{ backgroundImage: "url(atombg-comp.webp" }}
       >
-        <div className="pl-10 md:pl-10 xl:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
-          <h1 className="text-[50px] text-neutral-300 font-semibold capitalize">
+        <div className="pl-10 md:pl-14 xl:pl-36 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
+          <h1 className="xl:text-[60px] md:text-[50px] text-balance text-[30px] text-neutral-300 font-semibold capitalize">
             Design and build{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-b from-blue-400 to-purple-400 animate-pulse">
               beautiful and responsive websites
