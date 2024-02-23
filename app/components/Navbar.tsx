@@ -1,13 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Navigation from "./Navigation";
 import { Socials } from "./constants";
 
 const Navbar = () => {
   return (
-    <div className="fixed top-0 z-[40] w-full h-[100px] bg-transparent flex justify-between items-center px-10 xl:px-20">
+    <div className="fixed top-0 z-[40] w-full flex justify-between h-[100px] items-center px-10 xl:px-20 ">
       <Link href={"/"}>
-        <div className="flex flex-row gap-3 items-center">
+        <div className="flex gap-3 items-center flexrow">
           <Image
             src="/herro-image.png"
             alt="logo"
@@ -24,7 +25,11 @@ const Navbar = () => {
         </div>
       </Link>
 
-      <div className="flex flex-row gap-5 mb-2">
+      <div className="">
+        <Navigation />
+      </div>
+
+      <div className="flex gap-10 mb2 flexrow">
         {Socials.map((social) => (
           <Image
             key={social.name}

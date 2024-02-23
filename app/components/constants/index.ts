@@ -95,7 +95,6 @@ export const Projects = [
     title: "HealthCare Management System For University Students",
     text: "A cutting-edge Healthcare Management System tailored for university students, spearheading a transformative shift from a conventional file-based system to a dynamic web-based application.",
     src: "/Healthcare.png",
-    link:"https://github.com/Femi-Benjamin/e-learn_project1"
   },
   {
     title: "E-Learn University Management System",
