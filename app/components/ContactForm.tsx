@@ -34,7 +34,7 @@ const ContactForm = () => {
       <div className="mb-6">
         <label
           htmlFor="subject"
-          className="text-white block text-sm mb-2 font-medium"
+          className="block text-md text-zinc-300 pb-3"
         >
           Your Subject
         </label>

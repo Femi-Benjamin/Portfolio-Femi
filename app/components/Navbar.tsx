@@ -1,51 +1,3 @@
-// import React from "react";
-// import Image from "next/image";
-// import Link from "next/link";
-// import Navigation from "./Navigation";
-// import { Socials } from "./constants";
-
-// const Navbar = () => {
-//   return (
-//     <div className="fixed top-0 z-[40] w-full flex justify-between h-[100px] items-center px-10 xl:px-20">
-//       <Link href={"/"}>
-//         <div className="flex gap-3 items-center flexrow">
-//           <Image
-//             src="/herro-image.png"
-//             alt="logo"
-//             width={40}
-//             height={40}
-//             className="w-full h-full object-contain rounded-full"
-//           />
-//           <h1 className="text-whit text-[30px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-//             Benjamin.
-//             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
-//               Dev
-//             </span>
-//           </h1>
-//         </div>
-//       </Link>
-
-//       <div>
-//         <Navigation />
-//       </div>
-
-//       <div className="flex gap-10 mb2 flexrow">
-//         {Socials.map((social) => (
-//           <Image
-//             key={social.name}
-//             src={social.src}
-//             alt={social.name}
-//             width={28}
-//             height={28}
-//           />
-//         ))}
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Navbar;
-
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
@@ -61,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed top-0 z-[40] w-full items-center ">
+    <div className="fixed top-0 z-[40] w-full items-center">
       <div className="mx-auto px-4 sm:px-6 lg:px-8 ">
         <div className="flex justify-between items-center xl:h-[100px] h-20">
           <Link href={"/"}>
@@ -85,7 +37,9 @@ const Navbar = () => {
           </Link>
 
           <div className="hidden md:block">
-            <Navigation />
+            <div className="">
+              <Navigation />
+            </div>
           </div>
 
           <div className="flex md:hidden">
@@ -131,7 +85,7 @@ const Navbar = () => {
       {isOpen && (
         <div className="">
           <div className="md:hidden">
-            <div className="mx-3 p-3 space-y-1 sm:mx-6 rounded-2xl bg-slate800 backdrop-blur-xl">
+            <div className="mx-7 sm:mx-7 p-3 space-y-1 rounded-2xl bg-slate800 bggradient-to-t from-cyan-900 to-purple900 backdrop-blur-xl">
               <div className="border-b border-b-gray-700 pb-4 flex justify-center">
                 <Navigation />
               </div>

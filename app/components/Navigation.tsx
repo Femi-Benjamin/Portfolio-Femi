@@ -32,9 +32,17 @@ const Navigation = () => {
       // style={{ left: "20%" }}
       className="flex gap-10"
     >
-      {isRouting && <Transition />}
+      {isRouting && (
+        <div className="md:block hidden">
+          <Transition />
+        </div>
+      )}
       {NavLinks.map((nav) => (
-        <Link key={nav.name} href={nav.link} className="mb16 pl4 md:min-w-[20%]">
+        <Link
+          key={nav.name}
+          href={nav.link}
+          className="mb16 pl4 md:min-w-[20%]"
+        >
           <nav.icon
             className={`w-[24px] h-[24px] ${
               path === nav.name ? "text-purple-800" : "text-white"
