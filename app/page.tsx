@@ -30,14 +30,15 @@ export default function Home() {
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link
               href="/my-skills"
-              className="rounded-[20px] group relative bg-gradient-to-tl from-cyan-700 to-purple-700 px-5 py-3 text-lg text-white max-w-[200px]"
+              className="rounded-[20px] group border-none relative bg-gradient-to-tl from-cyan-700 to-purple-700 px-5 py-3 text-lg text-white max-w-[200px]
+             duration-200 ease-in-out"
             >
               Explore my Skills
             </Link>
             <Link
               href="/my-projects"
               className="rounded-[20px] group relative bg-trasparent px-5 border hover:border-none border-white py-3 text-lg text-white max-w-[200px] 
-              hover:bg-gradient-to-b from-cyan-700 to-purple-00 "
+              hover:bg-gradient-to-b from-cyan-700 to-purple-00 duration-200 ease-in-out"
             >
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hver:opacity-20" />
               Discover my creative solutions
@@ -45,7 +46,7 @@ export default function Home() {
             <Link
               href="/contact-me"
               className="rounded-[20px] group relative bg-trasparent border hover:border-none border-white px-5 py-3 text-lg text-white max-w-[200px]  
-              hover:bg-gradient-to-t from-purple-700 to-cyan-00"
+              hover:bg-gradient-to-t from-purple-700 to-cyan-00 duration-200 ease-in-out"
             >
               <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hver:opacity-20" />
               Schedule a consultation

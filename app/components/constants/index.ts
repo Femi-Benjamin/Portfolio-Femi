@@ -92,6 +92,11 @@ export const Socials = [
 ];
 export const Projects = [
   {
+    title: "Anime Finance Web Application",
+    text: "Unlock the future of digital wealth and crypto Mining Journey.",
+    src: "/animefinance.png",
+  },
+  {
     title: "HealthCare Management System For University Students",
     text: "A cutting-edge Healthcare Management System tailored for university students, spearheading a transformative shift from a conventional file-based system to a dynamic web-based application.",
     src: "/Healthcare.png",
@@ -105,11 +110,6 @@ export const Projects = [
     title: "Cardify Website",
     text: "A robust and secure verification system that ensures that your gift cards are valid, genuine, and ready to use.",
     src: "/cardify.png",
-  },
-  {
-    title: "Anime Finance Web Application",
-    text: "Unlock the future of digital wealth and crypto Mining Journey.",
-    src: "/animefinance.png",
   },
 ];
 

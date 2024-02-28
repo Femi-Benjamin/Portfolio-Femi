@@ -82,30 +82,28 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
-      {isOpen && (
-        <div className="">
-          <div className="md:hidden">
-            <div className="mx-7 sm:mx-7 p-3 space-y-1 rounded-2xl bg-slate800 bggradient-to-t from-cyan-900 to-purple900 backdrop-blur-xl">
-              <div className="border-b border-b-gray-700 pb-4 flex justify-center">
-                <Navigation />
-              </div>
-              <div className="pt-4 pb3">
-                <div className="flex gap-10 justify-center px5">
-                  {Socials.map((social) => (
-                    <Image
-                      key={social.name}
-                      src={social.src}
-                      alt={social.name}
-                      width={28}
-                      height={28}
-                    />
-                  ))}
-                </div>
+      <div className={`md:hidden fixed inset-0 bg-gray-900 bg-opacity-50 transition-opacity duration-300 ${isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`} onClick={toggleMenu}>
+        <div className={`transform transition-transform ease-in-out duration-300 absolute top-0 right-0 h-full w-3/4 backdrop-blur-xl rounded-3xl z-50 ${isOpen ? 'scale-100' : 'scale-0'}`}>
+          <div className="mx-7 sm:mx-7 p-3 space-y-1 rounded-2xl backdrop-blur-xl">
+            <div className="border-b border-b-gray-700 pt-8 pb-4 flex justify-center">
+              <Navigation />
+            </div>
+            <div className="pt-3">
+              <div className="flex gap-10 justify-center px5">
+                {Socials.map((social) => (
+                  <Image
+                    key={social.name}
+                    src={social.src}
+                    alt={social.name}
+                    width={28}
+                    height={28}
+                  />
+                ))}
               </div>
             </div>
           </div>
         </div>
-      )}
+      </div>
     </div>
   );
 };

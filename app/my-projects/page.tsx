@@ -6,8 +6,8 @@ import Image from "next/image";
 
 const page = () => {
   return (
-    <div className="bg-gradient-to-tr from-[#121212] bg-purple-950 w-screen h-screen flex items-center justify-center bg-center bg-cover">
-      <div className="grid grid-cols-2  gap-5 max-w-[90%] max-h-[90%]">
+    <div className="bg-gradient-to-tr from-[#121212] bg-purple-950 w-screen min-h-screen flex items-center justify-center bg-center bg-cover">
+      <div className="grid xl:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-5 xl:max-w-[90%] max-h-[90%]">
         {Projects.map((project, index) => (
           <ProjectCard
             key={index}
